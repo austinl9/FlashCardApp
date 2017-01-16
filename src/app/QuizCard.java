@@ -1,21 +1,23 @@
 package app;
 
+
+//data object for the quiz card
 public class QuizCard {
 
-	public QuizCard(String text, String text2) {
-		// TODO Auto-generated constructor stub
+	private String question;
+	private String answer;
+	
+	public QuizCard(String question, String answer) {
+		this.question = question;
+		this.answer = answer;
 	}
 
 	public String getQuestion() {
-		// TODO Auto-generated method stub
-		return null;
+		return question;
 	}
 
 	public String getAnswer() {
-		// TODO Auto-generated method stub
-		return null;
+		return answer;
 	}
-	
-	//data object for the quiz card
 
 }
