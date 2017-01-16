@@ -80,6 +80,11 @@ public class QuizCardPlayer {
 		frame.setVisible(true);
 	}
 	
+	public static void main(String[] args){
+		QuizCardPlayer player = new QuizCardPlayer();
+		player.go();
+	}
+	
 	private void loadFile(File file){
 		//must build an ArrayList of cards, by reading them from a text file
 		// called from the OpenMenuListener event handler, reads the file one line at a 
